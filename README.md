@@ -15,7 +15,7 @@ An offline Python prototype that reviews pseudonymized reservations, flags room 
 - **Tested:** 23 engine tests on Python 3.11–3.13 and seven Chromium checks for the report viewer.
 - **Human decisions:** advisory reports only; no live PMS, OTA, or KBS updates.
 
-[Documentation](https://github.com/erenariel/konaklamaflow#readme) · [Roadmap](https://github.com/erenariel/konaklamaflow/blob/main/docs/MAINTAINER_PLAN.md) · [Contributing](https://github.com/erenariel/konaklamaflow/blob/main/CONTRIBUTING.md)
+**[Try the fictional demo](https://erenariel.github.io/konaklamaflow/)** · [Documentation](https://github.com/erenariel/konaklamaflow#readme) · [Roadmap](https://github.com/erenariel/konaklamaflow/blob/main/docs/MAINTAINER_PLAN.md) · [Contributing](https://github.com/erenariel/konaklamaflow/blob/main/CONTRIBUTING.md)
 
 ## Current focus
 
