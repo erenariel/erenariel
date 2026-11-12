@@ -6,13 +6,15 @@ I build privacy-first, open-source tools for small and boutique hotels in Türki
 
 ### [KonaklamaFlow](https://github.com/erenariel/konaklamaflow)
 
+[![KonaklamaFlow: a calmer front desk, clearer decisions](https://raw.githubusercontent.com/erenariel/konaklamaflow/main/docs/images/social-card.png)](https://erenariel.github.io/konaklamaflow/)
+
 An offline Python prototype that reviews pseudonymized reservations, flags room conflicts and base-price inconsistencies, and suggests room assignments for human review.
 
 [![Tests](https://github.com/erenariel/konaklamaflow/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/erenariel/konaklamaflow/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/erenariel/konaklamaflow/blob/main/LICENSE)
 
 - **Offline by design:** no external runtime dependencies, telemetry, or API calls.
-- **Tested:** 23 engine tests on Python 3.11–3.13 and seven Chromium checks for the report viewer.
+- **Tested:** 23 engine tests on Python 3.11–3.13 and nine Chromium checks for the report viewer.
 - **Human decisions:** advisory reports only; no live PMS, OTA, or KBS updates.
 
 **[Try the fictional demo](https://erenariel.github.io/konaklamaflow/)** · [Documentation](https://github.com/erenariel/konaklamaflow#readme) · [Roadmap](https://github.com/erenariel/konaklamaflow/blob/main/docs/MAINTAINER_PLAN.md) · [Contributing](https://github.com/erenariel/konaklamaflow/blob/main/CONTRIBUTING.md)
