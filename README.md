@@ -1,40 +1,34 @@
-# Hi, I'm Eren 👋
+# Hi, I'm Eren
 
-Building privacy-first, open-source tools for small and boutique hotels in Türkiye and beyond.
-
-I'm interested in turning hospitality workflow problems into practical, understandable, and testable software.
+I build privacy-first, open-source tools for small and boutique hotels in Türkiye and beyond.
 
 ## Featured project
 
 ### [KonaklamaFlow](https://github.com/erenariel/konaklamaflow)
 
-An offline Python prototype for reviewing reservations, identifying room conflicts, checking base prices, and suggesting room assignments for human review.
+An offline Python prototype that reviews pseudonymized reservations, flags room conflicts and base-price inconsistencies, and suggests room assignments for human review.
 
-- Designed for fictional or previously pseudonymized input.
-- Advisory only: no changes to live hotel systems.
-- No PMS, OTA, or KBS integrations.
-- 23 automated tests, with GitHub Actions on Python 3.11–3.13.
-- Open source under the MIT license.
+[![Tests](https://github.com/erenariel/konaklamaflow/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/erenariel/konaklamaflow/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/erenariel/konaklamaflow/blob/main/LICENSE)
 
-[Source & documentation](https://github.com/erenariel/konaklamaflow) · [Test results](https://github.com/erenariel/konaklamaflow/actions)
+- **Offline by design:** no external runtime dependencies, telemetry, or API calls.
+- **Tested:** 23 engine tests on Python 3.11–3.13 and seven Chromium checks for the report viewer.
+- **Human decisions:** advisory reports only; no live PMS, OTA, or KBS updates.
+
+[Documentation](https://github.com/erenariel/konaklamaflow#readme) · [Roadmap](https://github.com/erenariel/konaklamaflow/blob/main/docs/MAINTAINER_PLAN.md) · [Contributing](https://github.com/erenariel/konaklamaflow/blob/main/CONTRIBUTING.md)
 
 ## Current focus
 
-- Turning operational problems into reproducible, synthetic test cases.
-- Improving Turkish and English documentation.
-- Making local reports more accessible and easier to understand.
-- Collecting voluntary feedback without collecting guest data.
+- Reproducible reservation scenarios using synthetic test data.
+- Accessible local reports and clear Turkish and English documentation.
+- Voluntary operator feedback without collecting guest records.
 
-## Contributions welcome
+## Work with me
 
-I'd welcome help with tests, documentation, accessibility, and reservation review rules.
+I am open to helping other hospitality open-source projects with synthetic test scenarios, documentation, and Turkish language review.
 
-Start with the [contribution guide](https://github.com/erenariel/konaklamaflow/blob/main/CONTRIBUTING.md), or open an issue with a fictional example.
+Contributions to tests, documentation, accessibility, and reservation review rules are welcome. [Open an issue](https://github.com/erenariel/konaklamaflow/issues) with a fictional reproduction or start with the contribution guide.
 
-Please never share guest records, private hotel exports, passwords, or access tokens.
+Please keep guest records, hotel credentials, and private exports out of public discussions.
 
-## Development approach
-
-I use AI-assisted development alongside code review and automated tests. My goal is to build useful, maintainable open-source software through small, verifiable improvements.
-
-KonaklamaFlow is an early prototype. No production deployments, adoption figures, or certifications are claimed.
+I use AI-assisted development with code review and automated tests. KonaklamaFlow is an early prototype; production adoption has not been established.
